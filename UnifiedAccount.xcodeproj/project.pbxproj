@@ -36,6 +36,9 @@
 		04AD4FF21B314FD3001017AB /* XHExampleLeftSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FEC1B314FD3001017AB /* XHExampleLeftSideDrawerViewController.m */; };
 		04AD4FF31B314FD3001017AB /* XHExampleRightSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FEE1B314FD3001017AB /* XHExampleRightSideDrawerViewController.m */; };
 		04AD4FF41B314FD3001017AB /* XHExampleCenterSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FF01B314FD3001017AB /* XHExampleCenterSideDrawerViewController.m */; };
+		04AD4FF81B316A05001017AB /* PublicMethod.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FF71B316A05001017AB /* PublicMethod.mm */; };
+		04AD4FFB1B316EF6001017AB /* UIKit+custom_.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FFA1B316EF6001017AB /* UIKit+custom_.mm */; };
+		04AD4FFF1B3176B4001017AB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AD4FFE1B3176B4001017AB /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +104,12 @@
 		04AD4FEE1B314FD3001017AB /* XHExampleRightSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleRightSideDrawerViewController.m; sourceTree = "<group>"; };
 		04AD4FEF1B314FD3001017AB /* XHExampleCenterSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleCenterSideDrawerViewController.h; sourceTree = "<group>"; };
 		04AD4FF01B314FD3001017AB /* XHExampleCenterSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleCenterSideDrawerViewController.m; sourceTree = "<group>"; };
+		04AD4FF61B316A05001017AB /* PublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMethod.h; sourceTree = "<group>"; };
+		04AD4FF71B316A05001017AB /* PublicMethod.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PublicMethod.mm; sourceTree = "<group>"; };
+		04AD4FF91B316EF6001017AB /* UIKit+custom_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+custom_.h"; sourceTree = "<group>"; };
+		04AD4FFA1B316EF6001017AB /* UIKit+custom_.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIKit+custom_.mm"; sourceTree = "<group>"; };
+		04AD4FFC1B316F89001017AB /* ShareHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareHeader.h; sourceTree = "<group>"; };
+		04AD4FFE1B3176B4001017AB /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AD4FFF1B3176B4001017AB /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +134,7 @@
 		04AD4F7B1B31205A001017AB = {
 			isa = PBXGroup;
 			children = (
+				04AD4FFE1B3176B4001017AB /* AddressBook.framework */,
 				04AD4F861B31205A001017AB /* UnifiedAccount */,
 				04AD4FA01B31205B001017AB /* UnifiedAccountTests */,
 				04AD4F851B31205A001017AB /* Products */,
@@ -142,6 +153,7 @@
 		04AD4F861B31205A001017AB /* UnifiedAccount */ = {
 			isa = PBXGroup;
 			children = (
+				04AD4FF51B316988001017AB /* Modle */,
 				04AD4FBA1B314BAF001017AB /* 股权交易中心 */,
 				04AD4FB91B314B83001017AB /* 金融资产交易中心 */,
 				04AD4FB81B314B75001017AB /* 统一账户 */,
@@ -249,6 +261,18 @@
 				04AD4FD71B314F68001017AB /* AccountViewController.xib */,
 			);
 			name = "股权交易中心";
+			sourceTree = "<group>";
+		};
+		04AD4FF51B316988001017AB /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				04AD4FFC1B316F89001017AB /* ShareHeader.h */,
+				04AD4FF91B316EF6001017AB /* UIKit+custom_.h */,
+				04AD4FFA1B316EF6001017AB /* UIKit+custom_.mm */,
+				04AD4FF61B316A05001017AB /* PublicMethod.h */,
+				04AD4FF71B316A05001017AB /* PublicMethod.mm */,
+			);
+			name = Modle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,10 +388,12 @@
 				04AD4FF21B314FD3001017AB /* XHExampleLeftSideDrawerViewController.m in Sources */,
 				04AD4FC91B314F21001017AB /* TYZHAccountViewController.m in Sources */,
 				04AD4FB31B314116001017AB /* XHDrawerController.m in Sources */,
+				04AD4FF81B316A05001017AB /* PublicMethod.mm in Sources */,
 				04AD4F901B31205A001017AB /* ViewController.m in Sources */,
 				04AD4FD31B314F55001017AB /* InverstViewController.m in Sources */,
 				04AD4FE71B314FAB001017AB /* ThirdViewController.m in Sources */,
 				04AD4FF31B314FD3001017AB /* XHExampleRightSideDrawerViewController.m in Sources */,
+				04AD4FFB1B316EF6001017AB /* UIKit+custom_.mm in Sources */,
 				04AD4FD81B314F68001017AB /* AccountViewController.m in Sources */,
 				04AD4FF11B314FD3001017AB /* XHExampleSideDrawerViewController.m in Sources */,
 				04AD4FCE1B314F34001017AB /* TYZHmoreViewController.m in Sources */,
@@ -557,6 +583,7 @@
 				04AD4FA91B31205B001017AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04AD4FAA1B31205B001017AB /* Build configuration list for PBXNativeTarget "UnifiedAccountTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +592,7 @@
 				04AD4FAC1B31205B001017AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

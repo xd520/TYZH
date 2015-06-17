@@ -7,6 +7,7 @@
 //
 
 #import "TYZHmainViewController.h"
+#import "PublicMethod.h"
 
 @interface TYZHmainViewController ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    NSLog(@"%@",[PublicMethod getIPAddress]);
+     NSLog(@"%@",[PublicMethod GetMacAddress]);
+     NSLog(@"%@",[PublicMethod GetImageIdentify]);
+     NSLog(@"%@",[PublicMethod getDeviceMessage]);
+    
+     NSLog(@"%@",[PublicMethod getDeviceType]);
+    
+     NSLog(@"%@",[PublicMethod getUserContacts]);
 }
 
 - (void)didReceiveMemoryWarning {
