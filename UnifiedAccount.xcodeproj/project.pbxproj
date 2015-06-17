@@ -10,10 +10,32 @@
 		04AD4F8A1B31205A001017AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4F891B31205A001017AB /* main.m */; };
 		04AD4F8D1B31205A001017AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4F8C1B31205A001017AB /* AppDelegate.m */; };
 		04AD4F901B31205A001017AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4F8F1B31205A001017AB /* ViewController.m */; };
-		04AD4F931B31205A001017AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4F911B31205A001017AB /* Main.storyboard */; };
 		04AD4F951B31205A001017AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4F941B31205A001017AB /* Images.xcassets */; };
-		04AD4F981B31205A001017AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4F961B31205A001017AB /* LaunchScreen.xib */; };
 		04AD4FA41B31205B001017AB /* UnifiedAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FA31B31205B001017AB /* UnifiedAccountTests.m */; };
+		04AD4FB31B314116001017AB /* XHDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FAF1B314116001017AB /* XHDrawerController.m */; };
+		04AD4FB41B314116001017AB /* XHZoomDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FB21B314116001017AB /* XHZoomDrawerView.m */; };
+		04AD4FBF1B314EC9001017AB /* TYZHmainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FBD1B314EC9001017AB /* TYZHmainViewController.m */; };
+		04AD4FC01B314EC9001017AB /* TYZHmainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FBE1B314EC9001017AB /* TYZHmainViewController.xib */; };
+		04AD4FC41B314EED001017AB /* TYZHmyInveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FC21B314EED001017AB /* TYZHmyInveViewController.m */; };
+		04AD4FC51B314EED001017AB /* TYZHmyInveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FC31B314EED001017AB /* TYZHmyInveViewController.xib */; };
+		04AD4FC91B314F21001017AB /* TYZHAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FC71B314F21001017AB /* TYZHAccountViewController.m */; };
+		04AD4FCA1B314F21001017AB /* TYZHAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FC81B314F21001017AB /* TYZHAccountViewController.xib */; };
+		04AD4FCE1B314F34001017AB /* TYZHmoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FCC1B314F34001017AB /* TYZHmoreViewController.m */; };
+		04AD4FCF1B314F34001017AB /* TYZHmoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FCD1B314F34001017AB /* TYZHmoreViewController.xib */; };
+		04AD4FD31B314F55001017AB /* InverstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FD11B314F55001017AB /* InverstViewController.m */; };
+		04AD4FD41B314F55001017AB /* InverstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FD21B314F55001017AB /* InverstViewController.xib */; };
+		04AD4FD81B314F68001017AB /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FD61B314F68001017AB /* AccountViewController.m */; };
+		04AD4FD91B314F68001017AB /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FD71B314F68001017AB /* AccountViewController.xib */; };
+		04AD4FDD1B314F81001017AB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FDB1B314F81001017AB /* FirstViewController.m */; };
+		04AD4FDE1B314F81001017AB /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FDC1B314F81001017AB /* FirstViewController.xib */; };
+		04AD4FE21B314F92001017AB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FE01B314F92001017AB /* SecondViewController.m */; };
+		04AD4FE31B314F92001017AB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FE11B314F92001017AB /* SecondViewController.xib */; };
+		04AD4FE71B314FAB001017AB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FE51B314FAB001017AB /* ThirdViewController.m */; };
+		04AD4FE81B314FAB001017AB /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD4FE61B314FAB001017AB /* ThirdViewController.xib */; };
+		04AD4FF11B314FD3001017AB /* XHExampleSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FEA1B314FD3001017AB /* XHExampleSideDrawerViewController.m */; };
+		04AD4FF21B314FD3001017AB /* XHExampleLeftSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FEC1B314FD3001017AB /* XHExampleLeftSideDrawerViewController.m */; };
+		04AD4FF31B314FD3001017AB /* XHExampleRightSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FEE1B314FD3001017AB /* XHExampleRightSideDrawerViewController.m */; };
+		04AD4FF41B314FD3001017AB /* XHExampleCenterSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4FF01B314FD3001017AB /* XHExampleCenterSideDrawerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +56,51 @@
 		04AD4F8C1B31205A001017AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04AD4F8E1B31205A001017AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04AD4F8F1B31205A001017AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04AD4F921B31205A001017AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AD4F941B31205A001017AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		04AD4F971B31205A001017AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04AD4F9D1B31205B001017AB /* UnifiedAccountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnifiedAccountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AD4FA21B31205B001017AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AD4FA31B31205B001017AB /* UnifiedAccountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnifiedAccountTests.m; sourceTree = "<group>"; };
+		04AD4FAE1B314116001017AB /* XHDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDrawerController.h; sourceTree = "<group>"; };
+		04AD4FAF1B314116001017AB /* XHDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHDrawerController.m; sourceTree = "<group>"; };
+		04AD4FB01B314116001017AB /* XHDrawerControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDrawerControllerHeader.h; sourceTree = "<group>"; };
+		04AD4FB11B314116001017AB /* XHZoomDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHZoomDrawerView.h; sourceTree = "<group>"; };
+		04AD4FB21B314116001017AB /* XHZoomDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHZoomDrawerView.m; sourceTree = "<group>"; };
+		04AD4FBB1B314D14001017AB /* UnifledAccount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnifledAccount-Prefix.pch"; sourceTree = "<group>"; };
+		04AD4FBC1B314EC9001017AB /* TYZHmainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYZHmainViewController.h; sourceTree = "<group>"; };
+		04AD4FBD1B314EC9001017AB /* TYZHmainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYZHmainViewController.m; sourceTree = "<group>"; };
+		04AD4FBE1B314EC9001017AB /* TYZHmainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYZHmainViewController.xib; sourceTree = "<group>"; };
+		04AD4FC11B314EED001017AB /* TYZHmyInveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYZHmyInveViewController.h; sourceTree = "<group>"; };
+		04AD4FC21B314EED001017AB /* TYZHmyInveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYZHmyInveViewController.m; sourceTree = "<group>"; };
+		04AD4FC31B314EED001017AB /* TYZHmyInveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYZHmyInveViewController.xib; sourceTree = "<group>"; };
+		04AD4FC61B314F21001017AB /* TYZHAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYZHAccountViewController.h; sourceTree = "<group>"; };
+		04AD4FC71B314F21001017AB /* TYZHAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYZHAccountViewController.m; sourceTree = "<group>"; };
+		04AD4FC81B314F21001017AB /* TYZHAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYZHAccountViewController.xib; sourceTree = "<group>"; };
+		04AD4FCB1B314F34001017AB /* TYZHmoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYZHmoreViewController.h; sourceTree = "<group>"; };
+		04AD4FCC1B314F34001017AB /* TYZHmoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYZHmoreViewController.m; sourceTree = "<group>"; };
+		04AD4FCD1B314F34001017AB /* TYZHmoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYZHmoreViewController.xib; sourceTree = "<group>"; };
+		04AD4FD01B314F55001017AB /* InverstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InverstViewController.h; sourceTree = "<group>"; };
+		04AD4FD11B314F55001017AB /* InverstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InverstViewController.m; sourceTree = "<group>"; };
+		04AD4FD21B314F55001017AB /* InverstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InverstViewController.xib; sourceTree = "<group>"; };
+		04AD4FD51B314F68001017AB /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		04AD4FD61B314F68001017AB /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		04AD4FD71B314F68001017AB /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		04AD4FDA1B314F81001017AB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04AD4FDB1B314F81001017AB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04AD4FDC1B314F81001017AB /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		04AD4FDF1B314F92001017AB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04AD4FE01B314F92001017AB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04AD4FE11B314F92001017AB /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		04AD4FE41B314FAB001017AB /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		04AD4FE51B314FAB001017AB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		04AD4FE61B314FAB001017AB /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		04AD4FE91B314FD3001017AB /* XHExampleSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleSideDrawerViewController.h; sourceTree = "<group>"; };
+		04AD4FEA1B314FD3001017AB /* XHExampleSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleSideDrawerViewController.m; sourceTree = "<group>"; };
+		04AD4FEB1B314FD3001017AB /* XHExampleLeftSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleLeftSideDrawerViewController.h; sourceTree = "<group>"; };
+		04AD4FEC1B314FD3001017AB /* XHExampleLeftSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleLeftSideDrawerViewController.m; sourceTree = "<group>"; };
+		04AD4FED1B314FD3001017AB /* XHExampleRightSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleRightSideDrawerViewController.h; sourceTree = "<group>"; };
+		04AD4FEE1B314FD3001017AB /* XHExampleRightSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleRightSideDrawerViewController.m; sourceTree = "<group>"; };
+		04AD4FEF1B314FD3001017AB /* XHExampleCenterSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleCenterSideDrawerViewController.h; sourceTree = "<group>"; };
+		04AD4FF01B314FD3001017AB /* XHExampleCenterSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleCenterSideDrawerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +142,15 @@
 		04AD4F861B31205A001017AB /* UnifiedAccount */ = {
 			isa = PBXGroup;
 			children = (
+				04AD4FBA1B314BAF001017AB /* 股权交易中心 */,
+				04AD4FB91B314B83001017AB /* 金融资产交易中心 */,
+				04AD4FB81B314B75001017AB /* 统一账户 */,
+				04AD4FAD1B314116001017AB /* Source */,
 				04AD4F8B1B31205A001017AB /* AppDelegate.h */,
 				04AD4F8C1B31205A001017AB /* AppDelegate.m */,
 				04AD4F8E1B31205A001017AB /* ViewController.h */,
 				04AD4F8F1B31205A001017AB /* ViewController.m */,
-				04AD4F911B31205A001017AB /* Main.storyboard */,
 				04AD4F941B31205A001017AB /* Images.xcassets */,
-				04AD4F961B31205A001017AB /* LaunchScreen.xib */,
 				04AD4F871B31205A001017AB /* Supporting Files */,
 			);
 			path = UnifiedAccount;
@@ -98,6 +161,7 @@
 			children = (
 				04AD4F881B31205A001017AB /* Info.plist */,
 				04AD4F891B31205A001017AB /* main.m */,
+				04AD4FBB1B314D14001017AB /* UnifledAccount-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +181,74 @@
 				04AD4FA21B31205B001017AB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04AD4FAD1B314116001017AB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04AD4FE91B314FD3001017AB /* XHExampleSideDrawerViewController.h */,
+				04AD4FEA1B314FD3001017AB /* XHExampleSideDrawerViewController.m */,
+				04AD4FEB1B314FD3001017AB /* XHExampleLeftSideDrawerViewController.h */,
+				04AD4FEC1B314FD3001017AB /* XHExampleLeftSideDrawerViewController.m */,
+				04AD4FED1B314FD3001017AB /* XHExampleRightSideDrawerViewController.h */,
+				04AD4FEE1B314FD3001017AB /* XHExampleRightSideDrawerViewController.m */,
+				04AD4FEF1B314FD3001017AB /* XHExampleCenterSideDrawerViewController.h */,
+				04AD4FF01B314FD3001017AB /* XHExampleCenterSideDrawerViewController.m */,
+				04AD4FAE1B314116001017AB /* XHDrawerController.h */,
+				04AD4FAF1B314116001017AB /* XHDrawerController.m */,
+				04AD4FB01B314116001017AB /* XHDrawerControllerHeader.h */,
+				04AD4FB11B314116001017AB /* XHZoomDrawerView.h */,
+				04AD4FB21B314116001017AB /* XHZoomDrawerView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		04AD4FB81B314B75001017AB /* 统一账户 */ = {
+			isa = PBXGroup;
+			children = (
+				04AD4FBC1B314EC9001017AB /* TYZHmainViewController.h */,
+				04AD4FBD1B314EC9001017AB /* TYZHmainViewController.m */,
+				04AD4FBE1B314EC9001017AB /* TYZHmainViewController.xib */,
+				04AD4FC11B314EED001017AB /* TYZHmyInveViewController.h */,
+				04AD4FC21B314EED001017AB /* TYZHmyInveViewController.m */,
+				04AD4FC31B314EED001017AB /* TYZHmyInveViewController.xib */,
+				04AD4FC61B314F21001017AB /* TYZHAccountViewController.h */,
+				04AD4FC71B314F21001017AB /* TYZHAccountViewController.m */,
+				04AD4FC81B314F21001017AB /* TYZHAccountViewController.xib */,
+				04AD4FCB1B314F34001017AB /* TYZHmoreViewController.h */,
+				04AD4FCC1B314F34001017AB /* TYZHmoreViewController.m */,
+				04AD4FCD1B314F34001017AB /* TYZHmoreViewController.xib */,
+			);
+			name = "统一账户";
+			sourceTree = "<group>";
+		};
+		04AD4FB91B314B83001017AB /* 金融资产交易中心 */ = {
+			isa = PBXGroup;
+			children = (
+				04AD4FDA1B314F81001017AB /* FirstViewController.h */,
+				04AD4FDB1B314F81001017AB /* FirstViewController.m */,
+				04AD4FDC1B314F81001017AB /* FirstViewController.xib */,
+				04AD4FDF1B314F92001017AB /* SecondViewController.h */,
+				04AD4FE01B314F92001017AB /* SecondViewController.m */,
+				04AD4FE11B314F92001017AB /* SecondViewController.xib */,
+				04AD4FE41B314FAB001017AB /* ThirdViewController.h */,
+				04AD4FE51B314FAB001017AB /* ThirdViewController.m */,
+				04AD4FE61B314FAB001017AB /* ThirdViewController.xib */,
+			);
+			name = "金融资产交易中心";
+			sourceTree = "<group>";
+		};
+		04AD4FBA1B314BAF001017AB /* 股权交易中心 */ = {
+			isa = PBXGroup;
+			children = (
+				04AD4FD01B314F55001017AB /* InverstViewController.h */,
+				04AD4FD11B314F55001017AB /* InverstViewController.m */,
+				04AD4FD21B314F55001017AB /* InverstViewController.xib */,
+				04AD4FD51B314F68001017AB /* AccountViewController.h */,
+				04AD4FD61B314F68001017AB /* AccountViewController.m */,
+				04AD4FD71B314F68001017AB /* AccountViewController.xib */,
+			);
+			name = "股权交易中心";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +331,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AD4F931B31205A001017AB /* Main.storyboard in Resources */,
-				04AD4F981B31205A001017AB /* LaunchScreen.xib in Resources */,
+				04AD4FC51B314EED001017AB /* TYZHmyInveViewController.xib in Resources */,
+				04AD4FD91B314F68001017AB /* AccountViewController.xib in Resources */,
+				04AD4FCA1B314F21001017AB /* TYZHAccountViewController.xib in Resources */,
+				04AD4FCF1B314F34001017AB /* TYZHmoreViewController.xib in Resources */,
+				04AD4FC01B314EC9001017AB /* TYZHmainViewController.xib in Resources */,
+				04AD4FE31B314F92001017AB /* SecondViewController.xib in Resources */,
+				04AD4FD41B314F55001017AB /* InverstViewController.xib in Resources */,
 				04AD4F951B31205A001017AB /* Images.xcassets in Resources */,
+				04AD4FE81B314FAB001017AB /* ThirdViewController.xib in Resources */,
+				04AD4FDE1B314F81001017AB /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +358,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AD4FF41B314FD3001017AB /* XHExampleCenterSideDrawerViewController.m in Sources */,
+				04AD4FBF1B314EC9001017AB /* TYZHmainViewController.m in Sources */,
+				04AD4FE21B314F92001017AB /* SecondViewController.m in Sources */,
+				04AD4FF21B314FD3001017AB /* XHExampleLeftSideDrawerViewController.m in Sources */,
+				04AD4FC91B314F21001017AB /* TYZHAccountViewController.m in Sources */,
+				04AD4FB31B314116001017AB /* XHDrawerController.m in Sources */,
 				04AD4F901B31205A001017AB /* ViewController.m in Sources */,
+				04AD4FD31B314F55001017AB /* InverstViewController.m in Sources */,
+				04AD4FE71B314FAB001017AB /* ThirdViewController.m in Sources */,
+				04AD4FF31B314FD3001017AB /* XHExampleRightSideDrawerViewController.m in Sources */,
+				04AD4FD81B314F68001017AB /* AccountViewController.m in Sources */,
+				04AD4FF11B314FD3001017AB /* XHExampleSideDrawerViewController.m in Sources */,
+				04AD4FCE1B314F34001017AB /* TYZHmoreViewController.m in Sources */,
+				04AD4FDD1B314F81001017AB /* FirstViewController.m in Sources */,
 				04AD4F8D1B31205A001017AB /* AppDelegate.m in Sources */,
+				04AD4FC41B314EED001017AB /* TYZHmyInveViewController.m in Sources */,
+				04AD4FB41B314116001017AB /* XHZoomDrawerView.m in Sources */,
 				04AD4F8A1B31205A001017AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +396,6 @@
 			targetProxy = 04AD4F9E1B31205B001017AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		04AD4F911B31205A001017AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04AD4F921B31205A001017AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04AD4F961B31205A001017AB /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04AD4F971B31205A001017AB /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04AD4FA51B31205B001017AB /* Debug */ = {
@@ -349,7 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/UnifiedAccount/UnifiedAccount/UnifledAccount-Prefix.pch";
 				INFOPLIST_FILE = UnifiedAccount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +496,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/UnifiedAccount/UnifiedAccount/UnifledAccount-Prefix.pch";
 				INFOPLIST_FILE = UnifiedAccount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

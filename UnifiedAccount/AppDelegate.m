@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "XHExampleLeftSideDrawerViewController.h"
+#import "XHExampleRightSideDrawerViewController.h"
+#import "XHExampleCenterSideDrawerViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    XHDrawerController *drawerController = [[XHDrawerController alloc] init];
+    drawerController.springAnimationOn = YES;
+    
+    XHExampleLeftSideDrawerViewController *leftSideDrawerViewController = [[XHExampleLeftSideDrawerViewController alloc] init];
+    
+    //XHExampleRightSideDrawerViewController *rightSideDrawerViewController = [[XHExampleRightSideDrawerViewController alloc] init];
+    
+    XHExampleCenterSideDrawerViewController *centerSideDrawerViewController = [[XHExampleCenterSideDrawerViewController alloc] init];
+    
+    drawerController.leftViewController = leftSideDrawerViewController;
+    // drawerController.rightViewController = rightSideDrawerViewController;
+    drawerController.centerViewController = [[UINavigationController alloc] initWithRootViewController:centerSideDrawerViewController];
+    
+    UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MenuBackground"]];
+    [backgroundImageView setContentMode:UIViewContentModeCenter];
+    drawerController.backgroundView = backgroundImageView;
+    
+    
+    self.window.rootViewController = drawerController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

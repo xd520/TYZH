@@ -1,0 +1,20 @@
+//
+//  UnifledAccount-Prefix.pch
+//  UnifiedAccount
+//
+//  Created by mac on 15/6/17.
+//  Copyright (c) 2015年 ApexSoft. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "XHDrawerController.h"
+#endif
